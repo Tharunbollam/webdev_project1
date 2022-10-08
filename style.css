@@ -3,17 +3,10 @@
     padding: 0;
     margin: 0;
 }
-.mainlogo{
+.section1 .mainlogo{
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-}
-#search{
-    display: inline;
-    margin-left: auto;
-    margin-right: auto;
-    width: 400px;
+	margin: 0px auto;
+	margin-top: 107px;
 }
 nav img{
     height: 1cm;
@@ -25,13 +18,15 @@ nav img{
 .nav img:hover{
     opacity: 0.4;
 }
-.container1{
-    padding-left: 25%;
-    align-self: center;
+.section1{
+    flex: 1;
 }
-.container1 input{
-    width: 50%;
-    align-self: auto;
+.container1{
+    width: 580px;
+    margin: 0px auto;
+    position: relative;
+    margin-top: -8px;
+    text-align: center;
 }
 nav{
     padding-left: 10px;
@@ -50,7 +45,6 @@ aside{
     bottom: 0;
     width: 100%;
     height: 40px;
-    background:#0000008A;
     border: yellowgreen 2px solid;
 }
 .signin{
@@ -74,32 +68,40 @@ ul li{
     text-decoration-style: none;
 }
 .container1 .searchicon{
+    position: absolute;
+    top: 13px;
+    left: 14px;
     width: 20px;
     opacity: 0.4;
     border-radius: 5px;
 }
 .container1 .searchinput{
-    display:inline-block;
     border: 2px solid grey;
-    font-size: 16px;
     padding: 13px;
-    /* padding-left: 45px; */
+    font-size: 16px;
     border-radius: 15px;
     width: 100%;
 }
 .container1 .voiceicon{
-    width: 15px;
+    width: 14px;
+    position: absolute;
     opacity: 0.4;
-    border-radius: 5px;
+    right: 24px;
+    top: 13px;
 }
-.btn{
+
+.container1 .btn{
     border: 2px solid transparent;
     padding: 9px 15px;
     display: inline-block;
-    width: 15px;
+    width: 200px;
     border-radius: 5px;
     cursor: pointer;
     margin-right: 10px;
     margin-top: 28px;
     transition: border-color 100ms;
+}
+.container2{
+    display: block;
+    text-align: center;
 }
