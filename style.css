@@ -1,0 +1,51 @@
+*{
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 20px;
+    background-color: aquamarine;
+    margin: 20px 40px;
+    border: 10px;
+}
+.container h1{
+    font-size: 100px;
+    color: blue;
+    text-align: center;
+}
+.container p{
+    font-size: 12px;
+    color: red;
+    text-align: center;
+}
+.container form{
+    align-items: center;
+}
+.container button{
+    align-items: center;
+    background-color: gray;
+    width: 100px;
+    margin-left: 15px;
+}
+header{
+    background-color: beige;
+    text-align: right;
+}
+aside{
+    margin: 5px;
+    border: skyblue 2px solid;
+}
+footer{
+    margin: 5px;
+   border: yellowgreen 2px solid;
+}
+.container a{
+    padding: 2px;
+}
+.foot a{
+    padding: 2px;
+}
+.head a{
+    padding: 4px;
+}
