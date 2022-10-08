@@ -4,16 +4,28 @@
     margin: 0;
 }
 .container{
-    padding: 150px;
+    /* padding: 150px; */
     background-color: aquamarine;
     margin: 20px 40px;
     border: 10px;
 }
 .container h1{
     padding-bottom: 30px;
-    font-size: 100px;
+    font-size: 200px;
     color: blue;
     text-align: center;
+}
+.container1{
+    padding: 0 0 0 25%;
+    align-self: center;
+}
+.container1 input{
+    width: 50%;
+    align-self: auto;
+}
+.container2{
+    padding-left: 25%;
+    background-color: chartreuse;
 }
 .container p{
     font-size: 12px;
