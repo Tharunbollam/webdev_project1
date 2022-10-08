@@ -5,18 +5,27 @@
 }
 .container{
     /* padding: 150px; */
-    background-color: aquamarine;
+    /* background-color: steelblue; */
     margin: 20px 40px;
     border: 10px;
 }
-.container h1{
-    padding-bottom: 30px;
-    font-size: 200px;
-    color: blue;
-    text-align: center;
+.mainlogo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+#search{
+    display: inline;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+img:hover{
+    box-shadow: 0 0 20px 10px rgba(0,140,186, 0.5);
 }
 .container1{
-    padding: 0 0 0 25%;
+    padding-left: 25%;
     align-self: center;
 }
 .container1 input{
@@ -25,7 +34,6 @@
 }
 .container2{
     padding-left: 25%;
-    background-color: chartreuse;
 }
 .container p{
     font-size: 12px;
@@ -42,6 +50,8 @@
     margin-left: 15px;
 }
 header{
+    padding-left: 10px;
+    text-decoration: none;
     background-color: beige;
     text-align: right;
 }
@@ -56,17 +66,32 @@ aside{
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 30px;
-    margin: 5px;
-    background: #6cf;
-   border: yellowgreen 2px solid;
+    height: 40px;
+    background:#0000008A;
+    border: yellowgreen 2px solid;
 }
 .container a{
     padding: 2px;
 }
 .foot a{
-    padding: 2px;
+    padding: 5px;
 }
-.head a{
-    padding: 4px;
+.signin{
+    color:white;
+    background-color: steelblue;
+}
+.list1{
+    padding: 5px;
+    float: left;
+}
+.list2{ 
+    padding: 5px;
+    float: right;
+}
+ul li{
+    list-style: none;
+    float: left;
+}
+.link{
+    padding-left: 10px;
 }
