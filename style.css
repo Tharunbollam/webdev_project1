@@ -3,12 +3,6 @@
     padding: 0;
     margin: 0;
 }
-.container{
-    /* padding: 150px; */
-    /* background-color: steelblue; */
-    margin: 20px 40px;
-    border: 10px;
-}
 .mainlogo{
     display: block;
     margin-left: auto;
@@ -21,8 +15,15 @@
     margin-right: auto;
     width: 400px;
 }
-img:hover{
-    box-shadow: 0 0 20px 10px rgba(0,140,186, 0.5);
+nav img{
+    height: 1cm;
+    width: 34px;
+    padding: 5px;
+    margin: auto 7px;
+    cursor: pointer;
+}
+.nav img:hover{
+    opacity: 0.4;
 }
 .container1{
     padding-left: 25%;
@@ -32,27 +33,9 @@ img:hover{
     width: 50%;
     align-self: auto;
 }
-.container2{
-    padding-left: 25%;
-}
-.container p{
-    font-size: 12px;
-    color: red;
-    text-align: center;
-}
-.container form{
-    align-items: center;
-}
-.container button{
-    align-items: center;
-    background-color: gray;
-    width: 100px;
-    margin-left: 15px;
-}
-header{
+nav{
     padding-left: 10px;
     text-decoration: none;
-    background-color: beige;
     text-align: right;
 }
 aside{
@@ -69,12 +52,6 @@ aside{
     height: 40px;
     background:#0000008A;
     border: yellowgreen 2px solid;
-}
-.container a{
-    padding: 2px;
-}
-.foot a{
-    padding: 5px;
 }
 .signin{
     color:white;
@@ -94,4 +71,35 @@ ul li{
 }
 .link{
     padding-left: 10px;
+    text-decoration-style: none;
+}
+.container1 .searchicon{
+    width: 20px;
+    opacity: 0.4;
+    border-radius: 5px;
+}
+.container1 .searchinput{
+    display:inline-block;
+    border: 2px solid grey;
+    font-size: 16px;
+    padding: 13px;
+    /* padding-left: 45px; */
+    border-radius: 15px;
+    width: 100%;
+}
+.container1 .voiceicon{
+    width: 15px;
+    opacity: 0.4;
+    border-radius: 5px;
+}
+.btn{
+    border: 2px solid transparent;
+    padding: 9px 15px;
+    display: inline-block;
+    width: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 28px;
+    transition: border-color 100ms;
 }
