@@ -98,7 +98,7 @@ ul li{
     width: 100%;
 }
 .container1 .searchicon:hover{
-    opacity: 0;
+    opacity: 0.3;
 }
 .container1 .voiceicon{
     width: 14px;
@@ -125,6 +125,7 @@ ul li{
     text-align: center;
 }
 .footer .link{
+    padding: 15px;
     text-decoration: none;
 }
 .footer .link:hover{
