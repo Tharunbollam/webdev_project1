@@ -33,7 +33,6 @@
     position: relative;
     margin-top: -8px;
     text-align: center;
-    overflow: hidden;
 }
 .head{
     text-decoration: none;
@@ -53,6 +52,7 @@
     text-decoration: underline;
 }
 .footer{
+    background-color: rgba(0, 0,0, 0.44);
     position: fixed;
     bottom: 0;
     width: 100%;
