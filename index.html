@@ -17,12 +17,13 @@
 <section class="section1">
         <img src="images/logo.png" alt="" class="mainlogo">
     
-        <form>
+        <form action="https://google.com/search" method="get" >
             <br>
             <br>
            <div class="container1">
             <img src="images/search.svg" class="searchicon">
-            <input type="text" name="search" class="searchinput">
+            <input type="hidden" name="sitesearch" value="">
+            <input type="search" id="gsearch" name="q" class="searchinput">
             <img src="images/vs.png" class="voiceicon">
             <input type="submit" class="btn" value="Google Search">
             <input type="submit" class="btn" value="I'm feeling lucky">
